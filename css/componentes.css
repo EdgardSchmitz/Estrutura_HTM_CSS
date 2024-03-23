@@ -1,0 +1,92 @@
+.btn-primary {
+    padding: 1.6rem 2.4rem;
+    background-color: var(--pink-10);
+    color: var(--gray-900);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.48px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary.white {
+    background-color: #ffffff;
+  }
+  
+  .btn-primary.white:hover {
+    background-color: var(--grey-900);
+    color: #ffffff;
+  }
+  
+  .btn-primary.lg {
+    padding: 2.3rem 2.4rem;
+    font-size: 1.8rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--pink-20);
+  }
+  
+  .item_digital {
+    flex-grow: 1;
+    max-width: 38.4rem;
+  }
+  
+  .item_digital .icon {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    color: var(--pink-10);
+  }
+  .item_digital .info h6 {
+    margin-bottom: 0.8rem;
+  }
+  .item_digital .info p {
+    color: var(--gray-600);
+  }
+  
+  .card_post {
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    background-color: gba(255, 255, 255, 0.02);
+    padding: 2.4rem;
+  }
+  
+  .card_post .tag {
+    display: inline-block;
+    border-radius: 100px;
+    background: gba(255, 255, 255, 0.1);
+    padding: 0.8rem 2.2rem;
+    color: var(--gray-100);
+    font-family: "Sora", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.26px;
+    text-transform: uppercase;
+    margin-bottom: 4.5rem;
+  }
+  
+  .card_post .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.4rem;
+  }
+  
+  .card_post .text {
+    flex-grow: 1;
+    max-width: 50.8rem;
+  }
+  
+  .card_post .text h6 {
+    margin-bottom: 0.8rem;
+  }
+  
+  .card_post .text p {
+    font-size: 1.6rem;
+    color: var(--gray-600);
+  }
